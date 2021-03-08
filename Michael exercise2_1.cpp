@@ -4,24 +4,20 @@ class employee
 {
 private:
 	int empnum;
-	char name[50];
-	float sal;
+	float comp;
 public:
 	void inpempy()
 	{
 		cout<< "\n\n\t Enter the employee number: ";
 		cin >> empnum;
-		cout << "\n\n\t Enter the employee name: ";
-		cin >> name;
-		cout << "\n\n\t Enter the employee salary: ";
-		cin >> sal;
+		cout << "\n\n\t Enter the employee compensation : ";
+		cin >> comp;
 	}
 	void emplydata()
 	{
 		cout << "\tEmployee data ...";
-		cout << "\n\n\t The name of the employee: " << name;
 		cout << "\n\n\t The employee number: " << empnum;
-		cout << "\n\n\t The salary of the employee: " <<sal;
+		cout << "\n\n\t The salary of the employee: " <<comp;
 	}
 	
 };
